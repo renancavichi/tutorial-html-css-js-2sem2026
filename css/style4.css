@@ -1,21 +1,20 @@
-#page {
-    width: 100%;
+#header {
+    height: 150px;
+    background-color: #d1d14d;
+}
+
+#container {
     display: flex;
 }
 
 #sidebar {
     width: 300px;
-    height: 900px;
+    height: 750px;
     background-color: #39bd56;
 }
 
 #main{
     width: calc(100% - 300px);
-}
-
-#header {
-    height: 150px;
-    background-color: #d1d14d;
 }
 
 #content {
