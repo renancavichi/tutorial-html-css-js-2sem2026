@@ -5,6 +5,9 @@
 - Qual a diferença do CSS externo, interno e inline?
 - Qual é a largura e altura padrão de uma div?
 - Flexbox (display: flex, justify-content, align-items, flex-direction, gap)
+----
+- Como centralizar uma div
+
 
 ### HTML
 
@@ -15,6 +18,10 @@
  - img (src, alt)
  - (style)
  - id vs class
+---- 
+ - Listas ul, ol
+ - Tabelas
+ - Formulários
 
 ### CSS
 
@@ -36,4 +43,9 @@
     - Elemento
     - , "e"
     - \# para id e . para class
+----
+    - Selecta
 
+
+- Revisão dia 21/09
+- Avaliação 1 dia 28/09
