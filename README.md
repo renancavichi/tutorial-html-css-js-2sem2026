@@ -5,8 +5,8 @@
 - Qual a diferença do CSS externo, interno e inline?
 - Qual é a largura e altura padrão de uma div?
 - Flexbox (display: flex, justify-content, align-items, flex-direction, gap)
-----
-- Como centralizar uma div
+- O que são tags Semânticas?
+- Como centralizar uma div?
 
 
 ### HTML
@@ -18,10 +18,12 @@
  - img (src, alt)
  - (style)
  - id vs class
+ - tags semânticas: header, nav, aside, footer, main, section, article
 ---- 
  - Listas ul, ol
  - Tabelas
  - Formulários
+
 
 ### CSS
 
@@ -44,7 +46,7 @@
     - , "e"
     - \# para id e . para class
 ----
-    - Selecta
+    - > para filho direto (body > header)
 
 
 - Revisão dia 21/09
