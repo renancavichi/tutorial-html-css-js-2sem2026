@@ -11,34 +11,34 @@ body > header{
 }
 
 .wrapper{
-    width: 1400px;
+    max-width: 1400px;
     height: inherit;
     margin: 0 auto;
 }
 
-body > header .wrapper{
+body > header div.wrapper{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-#logo{
+div#logo{
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-#logo img{
+div#logo img{
     width: 60px;
     height: 60px;
 }
 
-#logo h1{
+div#logo h1{
     font-size: 26px;
     margin: 5px 0 0 0;
 }
 
-#logo h1 span{
+div#logo h1 span{
     color: #ff9466;
 }
 
@@ -60,6 +60,10 @@ nav ul li a:hover{
     color: #ff9466;
 }
 
+nav ul li a.active{
+    color: #b75830;
+}
+
 main{
     background-color: #1c1c1c;
     height: 500px;
@@ -69,4 +73,27 @@ main{
 footer{
     background-color: #000;
     height: 200px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+ table, th, td{
+    border-color: #fff;
+    border-width: 1px;
+    border-style: solid;
+}
+
+td, th{
+    padding: 10px;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #e3e3e3;
 }

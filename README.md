@@ -7,6 +7,8 @@
 - Flexbox (display: flex, justify-content, align-items, flex-direction, gap)
 - O que são tags Semânticas?
 - Como centralizar uma div?
+- Os seletores div#logo ou p.active para classes e ids são válidos? O que eles indicam?
+- Para que serve e como usar o colspan e rowspan nas tabelas?
 
 
 ### HTML
@@ -19,8 +21,9 @@
  - (style)
  - id vs class
  - tags semânticas: header, nav, aside, footer, main, section, article
----- 
  - Listas ul, ol
+---- 
+
  - Tabelas
  - Formulários
 
@@ -42,11 +45,12 @@
     - padding
 
 - Seletores CSS
-    - Elemento
-    - , "e"
-    - \# para id e . para class
-----
-    - > para filho direto (body > header)
+    - Elemento (body, header, h1, p)
+    - , "e" (html, body)
+    - \# para id e . para class (#logo .wrapper)
+    - \> para Descendente direto(body > header)
+    - Elemento específico de id ou class (div.wrapper div#logo a.active)
+    - Descendente (div .wrapper h1)
 
 
 - Revisão dia 21/09
