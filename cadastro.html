@@ -26,14 +26,18 @@
             <div class="wrapper">
                 <h1>Cadastro</h1>
                 <form>
-                    <label for="nameUser">Nome:</label>
-                    <input type="text" name="nameUser" id="nameUser" placeholder="Nome">
 
-                    <label for="surnameUser">Sobrenome:</label>
-                    <input type="text" name="surnameUser" id="surnameUser" placeholder="Sobrenome">
+                    <fieldset>
+                        <legend>Informações Pessoais</legend>
+                        <label for="nameUser">Nome:</label>
+                        <input type="text" name="nameUser" id="nameUser" placeholder="Nome">
 
-                    <label for="passwordUser">Senha:</label>
-                    <input type="password" name="passwordUser" id="passwordUser">
+                        <label for="surnameUser">Sobrenome:</label>
+                        <input type="text" name="surnameUser" id="surnameUser" placeholder="Sobrenome">
+
+                        <label for="passwordUser">Senha:</label>
+                        <input type="password" name="passwordUser" id="passwordUser">
+                    </fieldset>
 
                     <h3>Qual seu perfil de Investidor?</h3>
                     
@@ -67,6 +71,25 @@
                         <input type="checkbox" name="investimentos[]" id="criptoativos" value="ca">
                         <label for="criptoativos">Criptoativos</label>
                     </div>
+
+                    <fieldset>
+                        <legend>Endereço</legend>
+                        <label for="streetUser">Rua:</label>
+                        <input type="text" name="streetUser" id="streetUser" placeholder="Rue e número">
+
+                        <label for="stateUser">Estado:</label>
+                        <select name="stateUser" id="stateUser">
+                            <option value="sp">São Paulo</option>
+                            <option value="rj">Rio de Janeiro</option>
+                            <option value="mg">Minas Gerais</option>
+                            <option value="es">Espírito Santo</option>
+                        </select>
+                    </fieldset>
+
+                    <label for="investmentGoal">Objetivo de Investimento:</label>
+                    <textarea rows="5" name="investmentGoalUser" id="investmentGoal" placeholder="Descreva seu objetivo de investimento..."></textarea>
+
+                    <input type="submit" value="Cadastrar">
                 </form>
             </div>
         </main>

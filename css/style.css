@@ -105,12 +105,23 @@ form {
     gap: 10px;
 }
 
-form label {
+fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid #4b4b4b;
+}
+
+label {
     margin:  20px 0 0 0;
 }
 
-form input {
+input, select, textarea {
     padding: 5px 8px;
     border-radius: 15px;
-    border: none;
+    border: none;''
+}
+
+input[type="submit"] {
+    background-color: #b75830;
 }

@@ -13,24 +13,25 @@
 ### HTML
 
 - Elementos (atributos): 
- - html, head, title, body
- - link (rel, href)
- - h1...h6, p, span
- - img (src, alt)
- - (style)
- - id vs class
- - tags semânticas: header, nav, aside, footer, main, section, article
- - Listas ul, ol, li
- - Tabelas: table, tr, th, td (colspan, rowspan)
- - Formulários
+    - html, head, title, body
+    - link (rel, href)
+    - h1...h6, p, span
+    - img (src, alt)
+    - (style)
+    - id vs class
+    - tags semânticas: header, nav, aside, footer, main, section, article
+    - Listas ul, ol, li
+    - Tabelas: table, tr, th, td (colspan, rowspan)
+    - Formulários: label, input (type: text, password, radio, checkbox, submit, select, textarea)
+    - Quais elementos de formulários são input (type) e quais não são?
 
 ### CSS
 
 - Propriedades CSS
     - background-color
     - color
-    - width
-    - height
+    - width, min-width, max-width
+    - height, min-height, max-height
     - border-radius
     - display: flex
     - flex-direction: row / column;
@@ -48,6 +49,7 @@
     - \> para Descendente direto (body > header)
     - Elemento específico de id ou class (div.wrapper), (div#logo), (a.active)
     - Descendente (div .wrapper h1)
+    - Selecionar por Atributo e valor (input[type="submit"])
 
 - Revisão dia 21/09
 - Avaliação 1 dia 28/09
