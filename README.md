@@ -9,6 +9,7 @@
 - Como centralizar uma div?
 - Os seletores div#logo ou p.active para classes e ids são válidos? O que eles indicam?
 - Para que serve e como usar o colspan e rowspan nas tabelas?
+- Quais elementos de formulários são input (type) e quais não são?
 
 ### HTML
 
@@ -22,8 +23,7 @@
     - tags semânticas: header, nav, aside, footer, main, section, article
     - Listas ul, ol, li
     - Tabelas: table, tr, th, td (colspan, rowspan)
-    - Formulários: label, input (type: text, password, radio, checkbox, submit, select, textarea)
-    - Quais elementos de formulários são input (type) e quais não são?
+    - Formulários: label, select, textarea, input (type: text, password, radio, checkbox, submit) 
 
 ### CSS
 
@@ -34,13 +34,14 @@
     - height, min-height, max-height
     - border-radius
     - display: flex
-    - flex-direction: row / column;
-    - gap
-    - justify-content
-    - align-items
+        - flex-direction: row / column;
+        - gap
+        - justify-content
+        - align-items
     - margin
     - padding
     - border-color, border-width, border-style
+    - border: 1px solid #345659
 
 - Seletores CSS
     - Elementos (body), (header), (h1), (p)
