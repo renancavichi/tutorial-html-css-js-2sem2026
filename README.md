@@ -54,3 +54,13 @@
 
 - Revisão dia 21/09
 - Avaliação 1 dia 28/09
+
+-------- Avaliação 2 --------
+
+- O que é Javascript?
+- O que é uma runtime de Javascript?
+- Qual runtime será o foco da disciplina de Desenvolvimento Web 1?
+- Como declarar variáveis e constantes no Javascript?
+- O que é um objeto do Javascript?
+- Quais as duas formas de acessar uma propriedade de um objeto?
+- Qual a diferençca de um array e um objeto?

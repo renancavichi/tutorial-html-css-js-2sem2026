@@ -12,21 +12,29 @@
         <h1>Olá Mundo JavaScript!</h1>
         <script>
 
-            const nome = "Lucas"
+            // Tipos de variáveis 
+            const nome = "Lucas" // const armazena um valor que não pode ser alterado
+            let idade = 20 // let armazena um valor que pode ser alterado
             const idade1 = 20
             const idade2 = 20
 
             let maiorDeIdade = false
 
-            if (idade1 === idade2) {
+            if (idade1 === idade2) { // === compara o valor e o tipo da variável
                 console.log("É igual")
             } else {
                 console.log("É falso")
             }
 
-            //maiorDeIdade = true
+            if (idade1 == idade2) { // == compara o valor da variável, mas não o tipo
+                console.log("É igual")
+            } else {
+                console.log("É falso")
+            }
 
-            if (maiorDeIdade) {
+            //maiorDeIdade = null
+
+            if (maiorDeIdade) { // se maiorDeIdade for true, entra no if se não, entra no else
                 console.log("É igual a 10")
             } else {
                 console.log("Não é igual a 10")
@@ -39,6 +47,37 @@
             console.log("Olá, olha eu aqui no console!")
             console.warn("Olá, olha eu aqui no console!")
             console.error("Olá, olha eu aqui no console!")
+            console.log('-------------------------------')
+
+
+            const user = {
+                nome: "Lucas",
+                "idade": 20,
+                "Is Admin": true,
+                preferencias: ["terror", "comédia", "ação", 10, {titulo: "Suspense", codigo: 123}],
+                endereco: {
+                    rua: "Rua dos bobos",
+                    numero: 0,
+                    cidade: "São Paulo",
+                    teste: ["item1", "item2", "item3"]
+                }
+            }
+
+            console.log(user.nome)
+            console.log(user.idade)
+            
+            if (user.isAdmin) {
+                console.log("É admin")
+            } else {
+                console.log("Não é admin")
+            }
+            console.log('-------------------------------')
+
+            //const pos = 0
+
+            //const preferencias = ["terror", "comédia", "ação", 10, true]
+            console.log(user.nome)
+            console.log(user["nome"])
         </script>
     </body>
 </html>
