@@ -64,21 +64,26 @@
             // Atividade de manipulação de arrays e objetos
 
             // 1. Mostre no console o título do primeiro post.
-
+                console.log(posts[0].title);
             // 2. Mostre no console o conteúdo do segundo post.
-
+                console.log(posts[1].content);
             // 3. Mostre no console a data do terceiro post.
-
+                console.log(posts[2].date); 
             // 4. Mostre no console o comentário do primeiro usuário do quarto post.
+                console.log(posts[3].comments[0].comment);
 
             // 5. Mostre no console o comentário do segundo usuário do quinto post.
-
+                console.log(posts[4].comments[1].comment);
             // 6. Mostre no console se o quinto post está publicado ou não.
-            
+            if (posts[4]["Is Published"]) {
+                console.log("O quinto post está publicado.");
+            } else {
+                console.log("O quinto post não está publicado.");
+            }
             // 7. Usando [] mostre no console o título do terceiro post.
-
+            console.log(posts[2]["title"]); 
             // 8. Usando [] mostre no console o conteúdo do quarto post.
-
+            console.log(posts[3]["content"]);
         </script>
     </body>
 </html>

@@ -63,4 +63,11 @@
 - Como declarar variáveis e constantes no Javascript?
 - O que é um objeto do Javascript?
 - Quais as duas formas de acessar uma propriedade de um objeto?
-- Qual a diferençca de um array e um objeto?
+- Qual a diferença de um array e um objeto?
+
+- Revisão dia 23/11
+- Avaliação 2 dia 30/11
+
+- Substitutiva dia 14/12 (Recuperação)
+
+- IFA 17/12

@@ -18,6 +18,7 @@
                         <li><a href="index.html" class="active">Home</a></li>
                         <li><a href="bolsas.html">Bolsas</a></li>
                         <li><a href="cadastro.html">Cadastro</a></li>
+                        <li><button onclick="">+ Add</button></li>
                     </ul>
                 </nav>
             </div>
@@ -31,5 +32,23 @@
             <div class="wrapper">
             </div>
         </footer>
+        <div class="modal" id="addStockModal">
+            <main>
+                <h2>Adicionar Ação</h2>
+                <form id="addStockForm">
+                    <label for="stockTicker">Simbolo:</label>
+                    <input type="text" id="stockTicker" name="stockTicker">
+                    <label for="stockName">Nome da Ação:</label>
+                    <input type="text" id="stockName" name="stockName">
+                    <label for="stockPrice">Preço da Ação:</label>
+                    <input type="number" id="stockPrice" name="stockPrice">
+                    <label for="stockQuantity">Quantidade:</label>
+                    <input type="number" id="stockQuantity" name="stockQuantity">
+
+                    <input type="submit" value="Adicionar">
+                </form>
+            </main>
+        </div>
     </body>
+    <script src="js/main.js"></script>
 </html>
