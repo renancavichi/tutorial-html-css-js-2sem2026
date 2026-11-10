@@ -18,7 +18,7 @@
                         <li><a href="index.html" class="active">Home</a></li>
                         <li><a href="bolsas.html">Bolsas</a></li>
                         <li><a href="cadastro.html">Cadastro</a></li>
-                        <li><button onclick="">+ Add</button></li>
+                        <li><button onclick="openModal('addStockModal')">+ Add</button></li>
                     </ul>
                 </nav>
             </div>
@@ -26,6 +26,24 @@
         <main>
             <div class="wrapper">
                 <h1>Bem-vindo ao IF Investments</h1>
+                <div id="stockList">
+                    <div class="stockCard">
+                       <header>
+                            <div>
+                                <h2>APPL</h2>
+                                <span>Apple Inc.</span>
+                            </div>
+                            <span class="stockValue up" >$ 100.00</span>
+                        </header>
+                        <footer class="stockPosition">
+                            <span><b>5</b> ações</span>
+                            <div>
+                                <span>Total</span>
+                                <span class="totalValue">$ 500.00</span>
+                            </div>
+                        </footer>
+                    </div>
+                </div>
             </div>
         </main>
         <footer>
@@ -35,7 +53,7 @@
         <div class="modal" id="addStockModal">
             <main>
                 <h2>Adicionar Ação</h2>
-                <form id="addStockForm">
+                <form id="addStockForm" onsubmit="addStock(event)">
                     <label for="stockTicker">Simbolo:</label>
                     <input type="text" id="stockTicker" name="stockTicker">
                     <label for="stockName">Nome da Ação:</label>
@@ -46,6 +64,8 @@
                     <input type="number" id="stockQuantity" name="stockQuantity">
 
                     <input type="submit" value="Adicionar">
+
+                    <button onclick="closeModal('addStockModal')">Fechar</button>
                 </form>
             </main>
         </div>

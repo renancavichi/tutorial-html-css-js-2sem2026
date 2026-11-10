@@ -124,12 +124,7 @@ input, select, textarea {
     border: none;
 }
 
-input[type="submit"] {
-    background-color: #b75830;
-    cursor: pointer;
-}
-
-button {
+button, input[type="submit"] {
     background-color: #b75830;
     color: #fff;
     border: none;
@@ -145,7 +140,7 @@ button {
     right: 0;
     bottom: 0;
     background-color: #0000007e;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
 }
@@ -164,4 +159,54 @@ button {
 
 .modal main form input[type="submit"]{
     margin: 20px 0 0 0;
+}
+
+.stockCard {
+    background-color: #000000;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 112px;
+}
+
+.up{
+    color: #117911;
+}
+
+.down{
+    color: #ff0000;
+}
+
+.stockValue{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.totalValue{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.stockCard header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stockCard header h2{
+    margin: 0;
+}
+
+.stockCard footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.stockCard footer div{
+    display: flex;
+    flex-direction: column;
 }
