@@ -19,5 +19,23 @@ function addStock(event) {
         price: form.stockPrice.value,
         quantity: form.stockQuantity.value
     }
-    console.log(stock)
+    const stockList = document.getElementById("stockList")
+    stockList.innerHTML +=
+    `<div class="stockCard">
+        <header>
+            <div>
+                <h2>${stock.ticket}</h2>
+                <span>${stock.name}</span>
+            </div>
+            <span class="stockValue up" >$ ${stock.price}</span>
+        </header>
+        <footer class="stockPosition">
+            <span><b>${stock.quantity}</b> ações</span>
+            <div>
+                <span>Total</span>
+                <span class="totalValue">$ ${stock.price * stock.quantity}</span>
+            </div>
+        </footer>
+    </div>`
+    closeModal("addStockModal")
 }
