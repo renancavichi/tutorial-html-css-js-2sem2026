@@ -153,6 +153,11 @@ button, input[type="submit"] {
     width: 300px;
 }
 
+.modal > main > button {
+    width: 100%;
+    margin: 20px 0 0 0;
+}
+
 .modal main form input[type="text"], .modal main form input[type="number"] {
     border: 1px solid #747474;
 }
@@ -169,6 +174,7 @@ button, input[type="submit"] {
     flex-direction: column;
     width: 200px;
     height: 112px;
+    position: relative;
 }
 
 .up{
@@ -215,4 +221,18 @@ button, input[type="submit"] {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
+}
+
+.stockActions{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #000000a4;
+    border-radius: 15px;
 }

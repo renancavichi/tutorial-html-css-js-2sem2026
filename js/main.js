@@ -36,6 +36,10 @@ function addStock(event) {
                 <span class="totalValue">$ ${stock.price * stock.quantity}</span>
             </div>
         </footer>
+        <div class="stockActions">
+            <button onclick="">Editar</button>
+            <button onclick="">Excluir</button>
+        </div>
     </div>`
     closeModal("addStockModal")
 }
