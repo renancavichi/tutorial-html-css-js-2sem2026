@@ -27,22 +27,6 @@
             <div class="wrapper">
                 <h1>Bem-vindo ao IF Investments</h1>
                 <div id="stockList">
-                    <div class="stockCard">
-                       <header>
-                            <div>
-                                <h2>APPL</h2>
-                                <span>Apple Inc.</span>
-                            </div>
-                            <span class="stockValue up" >$ 100.00</span>
-                        </header>
-                        <footer class="stockPosition">
-                            <span><b>5</b> ações</span>
-                            <div>
-                                <span>Total</span>
-                                <span class="totalValue">$ 500.00</span>
-                            </div>
-                        </footer>
-                    </div>
                 </div>
             </div>
         </main>
@@ -65,8 +49,27 @@
 
                     <input type="submit" value="Adicionar">
                 </form>
-                
+
                 <button onclick="closeModal('addStockModal')">Fechar</button>
+            </main>
+        </div>
+        <div class="modal" id="editStockModal">
+            <main>
+                <h2>Editar Ação</h2>
+                <form id="editStockForm" onsubmit="editStock(event)">
+                    <label for="stockTicker">Simbolo:</label>
+                    <input type="text" id="editStockTicker" name="stockTicker" disabled>
+                    <label for="stockName">Nome da Ação:</label>
+                    <input type="text" id="editStockName" name="stockName">
+                    <label for="stockPrice">Preço da Ação:</label>
+                    <input type="number" id="editStockPrice" name="stockPrice">
+                    <label for="stockQuantity">Quantidade:</label>
+                    <input type="number" id="editStockQuantity" name="stockQuantity">
+
+                    <input type="submit" value="Editar">
+                </form>
+                
+                <button onclick="closeModal('editStockModal')">Fechar</button>
             </main>
         </div>
     </body>

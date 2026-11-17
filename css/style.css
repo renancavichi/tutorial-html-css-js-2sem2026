@@ -224,7 +224,7 @@ button, input[type="submit"] {
 }
 
 .stockActions{
-    display: flex;
+    display: none;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -235,4 +235,8 @@ button, input[type="submit"] {
     gap: 20px;
     background-color: #000000a4;
     border-radius: 15px;
+}
+
+.stockCard:hover .stockActions {
+    display: flex; 
 }
